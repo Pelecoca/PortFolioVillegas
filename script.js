@@ -82,8 +82,8 @@ const projects = [
         category: "branding",
         desc: "Rediseño de la identidad visual institucional, incluyendo la modernización del logotipo, la papelería corporativa y la creación de piezas digitales para campañas en redes sociales, destacando eventos como la ‘Semana de la Juventud y Salud Mental’. Además, desarrollé material publicitario para celebraciones especiales como ‘Año Viejo’ y el concurso ‘Mejor Cuento Infantil’, junto con la elaboración de tarjetas de agradecimiento y felicitación navideña de la administración municipal. También produje contenido audiovisual, edité videos para las plataformas oficiales y diseñé flyers, infografías y piezas informativas que fortalecieron la comunicación visual de la Alcaldía",
         mediaType: "image",
-        mediaSrc: "assets/branding.png",
-        poster: "assets/AlcaldiaPost.png" ,
+        mediaSrc: "branding.png",
+        poster: "AlcaldiaPost.png" ,
         software: ["Ai", "Ps"]
     },
     {
@@ -92,8 +92,8 @@ const projects = [
         category: "video",
         desc: "Diseño de identidad visual para una bebida energizante natural, desarrollando un logotipo distintivo y un packaging con texturas orgánicas para los sabores Raspberry Grape y Lime Lemon. Dentro del proceso creativo realizado para la empresa Waku, también llevé a cabo la conceptualización visual de la línea, la exploración cromática basada en ingredientes reales y la elaboración de mockups comerciales para su presentación interna y externa. Además, produje un video promocional con estilo cinematográfico que destacó las bebidas de Lima Limón y Frambuesa Uva, resaltando su energía natural, frescura y propósito funcional, contribuyendo al posicionamiento visual y comercial de la marca.",
         mediaType: "video",
-        mediaSrc: "assets/videowaku.mp4", // Usa una captura de tu PDF página 6 si puedes
-        poster: "assets/waku.png",
+        mediaSrc: "videowaku.mp4", // Usa una captura de tu PDF página 6 si puedes
+        poster: "waku.png",
         software: ["Ai", "Ps"]
     },
     {
@@ -102,8 +102,8 @@ const projects = [
         category: "branding",
         desc: "Identidad corporativa para una marca de accesorios de mascotas. Desarrollo de un catálogo editorial con línea gráfica coherente, diseño de piezas para redes sociales y creación del packaging del empaque del producto. Además, realicé el diseño completo del manual de identidad corporativa de Mr Blue’s Style, incluyendo la construcción del logotipo, la definición de la paleta de colores, tipografías y usos visuales de la marca. También elaboré mockups personalizados para la presentación comercial de las pañoletas, produje tarjetas de visita con un estilo moderno y clásico, y diseñé variaciones del logo en diferentes formatos y proporciones para su aplicación en productos, empaques y material publicitario. Todo este trabajo consolidó una identidad sólida, pet friendly y visualmente atractiva para la marca.",
         mediaType: "image",
-        mediaSrc: "assets/BluePost.png",
-        poster: "assets/Blue.png", // Usando la imagen de 'campana' para ambiente
+        mediaSrc: "BluePost.png",
+        poster: "Blue.png", // Usando la imagen de 'campana' para ambiente
         software: ["Id", "Ai", "Ps"]
     },
     {
@@ -112,8 +112,8 @@ const projects = [
         category: "social",
         desc: "Diseño de piezas gráficas para campañas de concienciación ambiental y promoción del uso correcto de las basuras en Samaná. Además, desarrollé material publicitario para redes sociales de EMSamana, elaboré flyers informativos para actividades comunitarias y diseñé piezas educativas enfocadas en el manejo responsable de residuos. También produje contenido visual para eventos institucionales y apoyé la creación de material digital que fortaleció la comunicación ambiental del municipio, logrando transmitir mensajes claros, llamativos y adaptados a las necesidades de la comunidad.",
         mediaType: "image",
-        mediaSrc: "assets/123.png",
-         poster: "assets/Emsamana.png",
+        mediaSrc: "123.png",
+         poster: "Emsamana.png",
         software: ["Ps", "Ai"]
     }
     ,{
@@ -122,8 +122,8 @@ const projects = [
         category: "social",
         desc: "Diseño de piezas gráficas para campañas de concienciación ambiental y uso correcto de basuras en Samaná.",
         mediaType: "image",
-        mediaSrc: "assets/123.png",
-         poster: "assets/Emsamana.png",
+        mediaSrc: "123.png",
+         poster: "Emsamana.png",
         software: ["Ps", "Ai"]
     }
 ];
@@ -251,3 +251,4 @@ const styleSheet = document.createElement("style");
 styleSheet.innerText = ".visible { opacity: 1 !important; transform: translateY(0) !important; }";
 
 document.head.appendChild(styleSheet);
+
